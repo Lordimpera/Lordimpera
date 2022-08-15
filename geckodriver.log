@@ -1,0 +1,115 @@
+[1656505273,224][INFO]: Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49647
+[1656505273,224][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1656505273,720][INFO]: [b75ba788f643fd58a64884cb3702f0f1] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--ignore-certificate-errors", "--incognito", "--headless" ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1656505273,722][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1656505273,722][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1656505273,722][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --ignore-certificate-errors --incognito --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.TkiJri data:,
+[1656505274,293][INFO]: resolved localhost to ["127.0.0.1"]
+[1656505274,401][INFO]: [b75ba788f643fd58a64884cb3702f0f1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "103.0.5060.53",
+      "chrome": {
+         "chromedriverVersion": "103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})",
+         "userDataDir": "/tmp/.com.google.Chrome.TkiJri"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:45161"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b75ba788f643fd58a64884cb3702f0f1"
+}
+[1656505284,351][INFO]: [b75ba788f643fd58a64884cb3702f0f1] COMMAND QuitAll {
+}
+[1656505284,404][INFO]: [b75ba788f643fd58a64884cb3702f0f1] RESPONSE QuitAll
