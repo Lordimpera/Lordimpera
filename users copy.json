@@ -1,0 +1,24 @@
+[
+    {
+        "id": 481192305,
+        "habr_topic": [],
+        "lenta_topic": []
+    },
+    {
+        "id": 481192303,
+        "habr_topic": [
+            "AI"
+        ],
+        "lenta_topic": [
+            "Коронавирус"
+        ]
+    },
+    {
+        "id": 899574373,
+        "habr_topic": [
+            "Python",
+            "SQL"
+        ],
+        "lenta_topic": []
+    }
+]
